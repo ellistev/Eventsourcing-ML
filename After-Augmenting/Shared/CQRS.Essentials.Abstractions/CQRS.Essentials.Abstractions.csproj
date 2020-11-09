@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure.EventStore.Abstractions\Infrastructure.EventStore.Abstractions.csproj" />
+    <ProjectReference Include="..\Infrastructure.Publishers.Abstractions\Infrastructure.Publishers.Abstractions.csproj" />
+    <ProjectReference Include="..\Infrastructure.Storage.Abstractions\Infrastructure.Storage.Abstractions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CQRS\" />
+  </ItemGroup>
+
+</Project>

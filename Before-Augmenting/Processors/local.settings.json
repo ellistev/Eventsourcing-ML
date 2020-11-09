@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "HOTEL_MANAGEMENT_SERVICEBUS": "",
+    "INVENTORY_EVENTS_TOPIC_NAME": "inventory-events-topic",
+    "INVENTORY_RESERVATIONS_SUBSCRIPTION_NAME": "inventory-events-reservations-subscription",
+    "ReservationsReadModels-TableStorage-ConnectionString": "",
+    "RoomTypeAvailabilityReadModel-TableName": "roomtypeavailabilityreadmodel",
+    "EVENTSTORE_CONNECTION_STRING": ""
+  }
+}

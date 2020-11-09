@@ -1,0 +1,19 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "HOTEL_MANAGEMENT_SERVICEBUS": "",
+    "RESERVATIONS_EVENTS_TOPIC_NAME": "reservation-events-topic",
+    "ReservationsReadModels-TableStorage-ConnectionString": "",
+    "ReservationsReadModel-TableName": "reservationsreadmodel",
+    "RoomsReadModel-TableName": "roomsreadmodel",
+    "UsersReadModel-TableName": "usersreadmodel",
+    "HotelsReadModel-TableName": "hotelsreadmodel",
+    "RoomViewsReadModel-TableName": "roomviewsreadmodel",
+    "RoomTemperatureViewsReadModel-TableName": "roomtemperatureviewsreadmodel",
+    "LocationWeatherReadModel-TableName": "locationweatherreadmodel",
+    "RoomTypeAvailabilityReadModel-TableName": "roomtypeavailabilityreadmodel",
+    "EVENTSTORE_CONNECTION_STRING": ""
+  }
+}
